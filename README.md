@@ -15,13 +15,12 @@ drafting of requirement and the architectural design of integrated onboard energ
 
 ## Why SafetyLib ?
 
-2017 will be known in aerospace as the first ever year without a victim of a commercial airline accident. Only one airliner crashed, but
-the flight was operated by the military. Such a good safety record does not come by accident. Airlines are safer than ever because they
-follow strict safety processes, but also because the airplanes are very safe.
+2017 will be known in aerospace as the first ever year without a victim of a commercial airline accident. Such a good safety record 
+does not happen by accident. Airlines are safer than ever because they follow strict safety processes, but also because the airplanes
+are very safe.
 
 All commercial passenger transport airplanes used on regular airlines can continue to fly after the sudden failure of _any_ of their 
-components. This is why they have two engines, dual wheel units and so on. It is not visible but each wing has multiple spars as well, so the
-design is failure proof with respect to structural failures too. In addition, the probability of serious failures occuring in 
+components. This is why they have two engines, dual wheel units and so on. In addition, the probability of serious failures occuring in 
 combination during the same flight is assessed, and monitored over time, so that it remains very small.
 
 All these architectural features are heavily influenced by the rigorous safety assessment process, therefore a model of onboard systems 
@@ -30,14 +29,7 @@ was not complete without a model of their safety features, such as redondancies 
 ## What is SafetyLib ?
 
 SafetyLib is a Modelica library which represents functional flows and functional losses. Modelica is a widely used, standard language 
-created to describe dynamic systems. Old versions of Modelica supported a description based on a system of implicit differential equations.
-Recent versions also support state based descriptions similar in principle to SystemC, including algorithms. Such descriptions can
-be used with discrete variables, for instance Boolean values, whereas differential equations operate on time dependant real valued,
-derivable quantities.
-
-In a modern Modelica model, time is a sequence of time periods separated by discontinuities. The differential equations are solved within
-the time periods to calculate time-dependent values of real valued variables, and at time discontinuities the state logic and other
-discrete variables can change their value. SafetyLib manipulates Boolean equations to model the functional status of componnts.
+created to describe dynamic systems. SafetyLib manipulates Boolean equations to model the functional status of components.
 
 ## How Does It Work ?
 
