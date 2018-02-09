@@ -1,0 +1,45 @@
+<!-- This kind of XML database contains information required to run the EMM.
+	 The EMM Modelica model computes power flows and state of energy storage elements. It has default start 
+	 conditions corresponding to the beginning of a mission, but mostly starts from saved start
+	 files corresponding to various pre-recorded stages of the mission.
+	 An experiment is the conjunction of a specific start file, a mission state and a flight point.
+	 The EMM does not simulate flying. Rather, it interpolates points in the flight profile coming
+	 with the aircraft sizing parameters.
+ -->
+<!ELEMENT emmExperimentsParameters (stateParameters,modelicaParameters,experimentsDefinition?)>
+<!ENTITY  % emmExperimentsParameters-att '
+	version NMTOKEN #IMPLIED
+	xmlns CDATA #FIXED "http://www.cleansky.eu/EDS"
+	xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation CDATA #FIXED "../../../../../../EU_CleanSky/EDS/InterfacingTool/Resources/XML-schema/emmExperimentsParameters.xsd"
+'>
+<!ATTLIST emmExperimentsParameters %emmExperimentsParameters-att;>
+
+<!-- Defines useful model parameters defining platform states, used to take failure cases into account -->
+<!ELEMENT stateParameters (state+)>
+<!-- state to be modified to allow substate (state = state1 U state2) and dsin.txt file, and autogen conditions -->
+<!ELEMENT state (duration,parameters)>
+<!ATTLIST state id ID #REQUIRED>
+<!ELEMENT duration (#PCDATA) >
+<!ELEMENT parameters (titles,parameter+)>
+
+<!-- The dictionary of translation between Modelica parameters and EMM parameters -->
+<!ELEMENT modelicaParameters (titles,parameter+)>
+
+<!-- The section allows automatically generated experiments -->
+<!ELEMENT experimentsDefinition (rule*)>
+<!ELEMENT rule (experiment)>
+<!ATTLIST rule state IDREF "nominal" >
+<!ELEMENT experiment (titles,criterion+)> 
+<!ELEMENT criterion (emmName,value)>
+
+<!-- Common elements -->
+<!ELEMENT parameter (modelicaName,(emmName|value))>
+<!ELEMENT modelicaName (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+<!ELEMENT emmName (#PCDATA)>
+<!ATTLIST emmName file (missionPoints|sizingParameters|outputs) #REQUIRED>
+<!ELEMENT titles (title,title)>
+<!ELEMENT title EMPTY>
+
+<!-- Entities for customisable strings (set as attributes in XML and recovered in CSS) -->

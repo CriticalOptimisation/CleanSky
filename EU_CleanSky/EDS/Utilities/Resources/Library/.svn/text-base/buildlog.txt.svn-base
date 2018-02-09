@@ -1,0 +1,54 @@
+ 
+Compiling and linking the model (Visual C++). 
+ 
+64-bit mode activated. 
+Setting environment for using Microsoft Visual Studio 2008 Beta2 x64 tools.
+dsmodel.c
+L:/WRK/tools/Dymola/2015FD01\source\matrixop.h(169) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3060) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3445) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3493) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3503) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3512) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3521) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3533) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3543) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3553) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+l:\wrk\tools\dymola\2015fd01\source\matrixop.c(3638) : warning C4267: 'function' : conversion from 'size_t' to 'SizeType', possible loss of data
+dsmodel.c(210) : warning C4028: formal parameter 1 different from declaration
+l:\wrk\tools\dymola\2015fd01\source\win32_dirent.c(201) : warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+L:/WRK/tools/Dymola/2015FD01\source\ModelicaInternal.c(843) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+L:/WRK/tools/Dymola/2015FD01\source\ModelicaStrings.c(46) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+L:/WRK/tools/Dymola/2015FD01\source\ModelicaStrings.c(79) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+L:/WRK/tools/Dymola/2015FD01\source\ModelicaStrings.c(177) : warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+dsmodel.c(251) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(260) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(269) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(278) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(287) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(296) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+dsmodel.c(348) : warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+l:\wrk\dev\daforge2\trunk\eu_cleansky\eds\utilities\resources\library\dsmodel.c(53) : warning C4700: uninitialized local variable 'dummy_0' used
+Microsoft (R) Incremental Linker Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/stack:0x500000 /MACHINE:X64 /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCD /OPT:NOREF libdsdll.lib 
+   Creating library dymosim.lib and object dymosim.exp
+dsmodel.obj : error LNK2019: unresolved external symbol ExternalObjectInstanceCounter_count referenced in function EUx_0CleanSky_EDS_Utilities_ArrayInit_Examples_AutomaticNumbering_Sequencex_0Count_M
+dymosim.dll : fatal error LNK1120: 1 unresolved externals
+ 
+Error generating Dymosim with DDE. 
+ 

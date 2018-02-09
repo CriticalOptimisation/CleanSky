@@ -1,0 +1,203 @@
+
+/* Global File Format */
+* {
+	font-size:100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*   Global table formats */
+state>parameters,modelicaParameters,rule>experiment {
+	display:table;
+	border: 2px outset;
+	padding: 0px;
+}
+/*   Global table cell&row formats */
+parameter,criterion,titles { display: table-row; }
+parameter:before,criterion:before,modelicaName,emmName,value,title,titles:before { 
+	display: table-cell;
+	vertical-align: middle;
+}	
+parameter,parameter:before,criterion,criterion:before,modelicaName,emmName,value,title,titles:before {
+	border: 2px inset;
+	padding: 2px;
+}
+emmName[file]:before,value:before {
+	vertical-align: text-top;
+	padding: 2px;
+}
+/*    Add first column (line numbers) via CSS */
+titles:before {	content: "#"; text-align:center; }
+parameter:before,criterion:before { 
+	content:  counter(rowNum);
+	color: white; 
+	text-align:center; 
+	width: 32px;
+	vertical-align: middle;
+	background-color: blue;
+	/* background-image: url(buttonBg.png);
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+/* Use icons to display attribute value in emmName, and specific icon for value */	
+emmName[file=missionPoints]:before { 	content: url("missionPoints.png"); }
+emmName[file=outputs]:before       { 	content: url("outputs.png"); }
+emmName[file=sizingParameters]:before {	content: url("sizingParameters.png"); }
+value:before { 	content: url("value.png"); }
+
+/*  Added before the content of the main element */
+emmExperimentsParameters:before {
+	content: "Interface with the Modelica Energy Management Model";
+	font-family:"Times New Roman", Times, serif;
+	font-size: 1.8em;
+}
+
+/* Formatting of stateParameters tables ======================================== */
+stateParameters,stateParameters>state { 	display: block; }
+stateParameters>state { 
+	border-style: none; 
+}
+/* Content inserted before the first table */
+stateParameters:before {
+	content: "\A List of defined system states, one state per table.";
+	display:block;
+	font-size: 1.1em;
+	text-decoration: underline;
+}
+/* Content inserted before each table */
+stateParameters>state:before {	
+	content: "\A State \"" attr(id) "\"\A " url(addDeleteState.png) ; 
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+stateParameters duration:before {
+	content: "Duration : ";
+}
+stateParameters duration {
+	display: block;
+	width: 20em;
+}
+stateParameters duration:after {
+	content: " seconds";
+}
+
+stateParameters parameters { counter-reset: rowNum; }
+stateParameters parameter  { counter-increment: rowNum; }
+/* Width of table columns */
+stateParameters parameter modelicaName { width: 30em }
+stateParameters emmName,
+stateParameters value { width: 15em; }
+/*stateParameters title:last-child { width: 15em; }*/
+
+stateParameters parameters,
+stateParameters parameter:before,
+stateParameters modelicaName,
+stateParameters emmName,
+stateParameters value,
+stateParameters title,
+stateParameters titles:before { 
+	border-color: maroon; 
+}
+stateParameters title,stateParameters titles:before {
+	background-color: maroon;
+	color: white;
+}
+stateParameters title:after {
+	content: "Modelica variable";
+}
+stateParameters title:last-child:after {
+	content: "Value";
+}
+
+/* Formatting of modelicaParameters table ====================================== */
+modelicaParameters,
+modelicaParameters>parameter:before,
+modelicaParameters modelicaName,
+modelicaParameters emmName,
+modelicaParameters value,
+modelicaParameters title,
+modelicaParameters titles:before  {
+	border-color: green;
+}
+/* Header line  */
+emmExperimentsParameters>stateParameters:first-child:after {
+	content: "\A Correspondance table between hierarchical variables in Modelica, and flat interface variables." ;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 1.1em;
+	text-decoration:underline;
+}
+modelicaParameters { counter-reset: rowNum; }
+modelicaParameters>parameter { 	counter-increment: rowNum; }
+modelicaParameters modelicaName { width: 30em; }
+modelicaParameters emmName,
+modelicaParameters value { width: 15em; }
+
+/* Colors and column titles */
+modelicaParameters title, modelicaParameters titles:before {
+	background-color: green;
+	color: white;
+}
+modelicaParameters title:after {
+	content: "Modelica variable";
+}
+modelicaParameters title:last-child:after {
+	content: "Interface variable";
+}
+
+/* Formatting of experimentsDefinition table ==================================== */
+experimentsDefinition, experimentsDefinition>rule { 
+	display:block;
+	border-style: none;
+}
+/* Content inserted before the first table */
+experimentsDefinition:before {
+	content: "\A Rules for automatic generation of experiments." ;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 1.1em;
+	text-decoration:underline;
+}
+/* Content inserted before each table */
+experimentsDefinition>rule:before {	
+	content: url(addDeleteRule.png) "\0A Generate experiments in state \"" attr(state) "\" if the following conditions are all met:          "  ;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+experimentsDefinition experiment { counter-reset: rowNum; }
+experimentsDefinition experiment>criterion  { counter-increment: rowNum; }
+
+/* Width of table columns */
+experimentsDefinition criterion emmName { width: 15em; }
+experimentsDefinition value { width: 5em; }
+
+/* Table colors */
+experimentsDefinition experiment,
+experimentsDefinition experiment>criterion:before,
+experimentsDefinition modelicaName,
+experimentsDefinition emmName,
+experimentsDefinition value,
+experimentsDefinition title,
+experimentsDefinition titles:before  {
+	border-color: blue;
+}
+
+/* Colors and column titles */
+experimentsDefinition title, experimentsDefinition titles:before {
+	background-color: blue;
+	color: white;
+}
+experimentsDefinition title:after {
+	content: "Interface variable";
+}
+experimentsDefinition title:last-child:after {
+	content: "Value";
+}

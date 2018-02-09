@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 112
+*.bak-mo
+*.mof
+buildlog.txt
+dsfinal.txt
+dsin.txt
+dslog.txt
+dsmodel.*
+dsmodelFnc*.c
+dymosim.*
+*.mat
+Distribution
+
+K 13
+svn:mergeinfo
+V 38
+/branches/trackId426/EU_Cleansky:37-42
+END

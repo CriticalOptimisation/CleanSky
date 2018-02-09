@@ -1,0 +1,21 @@
+within EU_CleanSky.EDS.Kinematics.Examples;
+model TestLocation2 "Example of geostationary satellite using Location model."
+  extends Modelica.Icons.Example;
+  inner TheEarth world(
+    nominalLength=10000000,
+    defaultN_to_m=0.1,
+    defaultNm_to_m=0.1)
+    annotation (Placement(transformation(extent={{-100,80},{-80,100}})));
+  Modelica.Mechanics.MultiBody.Parts.PointMass satellite(
+    r_0(fixed=true, start={36e6,0,0}),
+    v_0(start={0,-2700,0}, fixed=true),
+    specularCoefficient=1,
+    m=1000,
+    sphereDiameter=500000)
+    annotation (Placement(transformation(extent={{-70,-10},{-90,10}})));
+  annotation (
+    Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},{
+            100,100}}), graphics),
+    experiment(StopTime=100000),
+    __Dymola_experimentSetupOutput);
+end TestLocation2;

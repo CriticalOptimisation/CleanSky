@@ -1,0 +1,16 @@
+# Dymola
+Distribution/
+*.mat
+buildlog.txt
+dsfinal.txt
+dsin.txt
+dslog.txt
+dsmodel.c
+dsmodel.obj
+dymosim.dll
+dymosim.exp
+dymosim.lib
+*.mof
+*.bak-mo
+
+

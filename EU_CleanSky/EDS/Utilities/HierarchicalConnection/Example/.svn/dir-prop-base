@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 113
+buildlog.txt
+funcout.mat
+funcin.mat
+empty.txt
+dymosim.lib
+dymosim.exp
+dsmodel.c
+dslog.txt
+dsmodelFcn*.c
+*.bak-mo
+
+END

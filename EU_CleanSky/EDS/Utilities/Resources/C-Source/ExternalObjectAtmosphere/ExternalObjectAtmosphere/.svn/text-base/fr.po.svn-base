@@ -1,0 +1,1351 @@
+# French translations for Physique package
+# Traduction anglaise du package Physique.
+# Copyright (C) 2015 Jean-Marc Le Peuvédic et Dassault Aviation
+# This file is distributed under the same license as the Physique package.
+# <jean-marc.le_peuvedic@centraliens.net>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: EU_CleanSky_Physique 2.0\n"
+"Report-Msgid-Bugs-To: jean-marc.le_peuvedic@centraliens.net\n"
+"POT-Creation-Date: 2015-11-25 10:37+0100\n"
+"PO-Revision-Date: 2015-11-25 10:43+0100\n"
+"Last-Translator: <jean-marc.le_peuvedic@centraliens.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: Physique.cc:63 Physique.cc:907
+msgid "nondimensional"
+msgstr "sans dimension"
+
+#: Physique.cc:64 Physique.cc:995
+msgid "kilogram"
+msgstr "kilogramme"
+
+#: Physique.cc:64 Physique.cc:713 Physique.cc:776 Physique.cc:995
+msgid "kg"
+msgstr "kg"
+
+#: Physique.cc:65 Physique.cc:913
+msgid "meter"
+msgstr "mètre"
+
+#: Physique.cc:65 Physique.cc:719 Physique.cc:782 Physique.cc:913
+msgid "m"
+msgstr "m"
+
+#: Physique.cc:66 Physique.cc:969
+msgid "second"
+msgstr "seconde"
+
+#: Physique.cc:66 Physique.cc:725 Physique.cc:788 Physique.cc:969
+msgid "s"
+msgstr "s"
+
+#: Physique.cc:67 Physique.cc:1063
+msgid "Ampere"
+msgstr "Ampère"
+
+#: Physique.cc:67 Physique.cc:731 Physique.cc:794 Physique.cc:1063
+msgid "A"
+msgstr "A"
+
+#: Physique.cc:68 Physique.cc:1057
+msgid "Kelvin"
+msgstr "Kelvin"
+
+#: Physique.cc:68 Physique.cc:737 Physique.cc:800 Physique.cc:1057
+msgid "K"
+msgstr "K"
+
+#: Physique.cc:69 Physique.cc:1113
+msgid "candela"
+msgstr "candela"
+
+#: Physique.cc:69 Physique.cc:743 Physique.cc:806 Physique.cc:1113
+msgid "cd"
+msgstr "cd"
+
+#: Physique.cc:72 Physique.cc:1121
+msgid "US dollar"
+msgstr "dollar US"
+
+#: Physique.cc:72 Physique.cc:761 Physique.cc:824 Physique.cc:1121
+msgid "$"
+msgstr "$"
+
+#: Physique.cc:73 Physique.cc:1122
+msgid "person"
+msgstr "homme"
+
+#: Physique.cc:73 Physique.cc:767 Physique.cc:830 Physique.cc:1122
+msgid "p"
+msgstr "h"
+
+#: Physique.cc:96
+msgid "yotta"
+msgstr "yotta"
+
+#: Physique.cc:97
+msgid "zetta"
+msgstr "zetta"
+
+#: Physique.cc:98
+msgid "exa"
+msgstr "exa"
+
+#: Physique.cc:99
+msgid "peta"
+msgstr "peta"
+
+#: Physique.cc:100
+msgid "tera"
+msgstr "tera"
+
+#: Physique.cc:101
+msgid "giga"
+msgstr "giga"
+
+#: Physique.cc:102
+msgid "mega"
+msgstr "mega"
+
+#: Physique.cc:103
+msgid "kilo"
+msgstr "kilo"
+
+#: Physique.cc:104
+msgid "hecto"
+msgstr "hecto"
+
+#: Physique.cc:105
+msgid "deca"
+msgstr "déca"
+
+#: Physique.cc:106
+msgid "deci"
+msgstr "déci"
+
+#: Physique.cc:107
+msgid "centi"
+msgstr "centi"
+
+#: Physique.cc:108
+msgid "milli"
+msgstr "milli"
+
+#: Physique.cc:109 Physique.cc:110
+msgid "micro"
+msgstr "micro"
+
+#: Physique.cc:111
+msgid "nano"
+msgstr "nano"
+
+#: Physique.cc:112
+msgid "pico"
+msgstr "pico"
+
+#: Physique.cc:113
+msgid "femto"
+msgstr "femto"
+
+#: Physique.cc:114
+msgid "atto"
+msgstr "atto"
+
+#: Physique.cc:115
+msgid "zepto"
+msgstr "zepto"
+
+#: Physique.cc:116
+msgid "yocto"
+msgstr "yocto"
+
+#: Physique.cc:164
+msgid "/.0123456789"
+msgstr "/.0¹²³456789123"
+
+#: Physique.cc:275 Physique.cc:283
+msgid "Attempt to use defaut constructor of class Unite"
+msgstr "Tentative dʼutilisation du constructeur par défaut de la classe Unite"
+
+#: Physique.cc:276 Physique.cc:284 Physique.cc:671
+msgid "bug"
+msgstr "bogue"
+
+#: Physique.cc:296 Physique.cc:309
+msgid "The proportionality factor of a unit shall never be zero"
+msgstr "Le facteur de proportionalité d'une unité ne doit jamais être nul"
+
+#: Physique.cc:328 Physique.cc:347
+msgid "Multiplication factor 'val' shall not be zero"
+msgstr "Le facteur multiplicatif ‘val’ ne doit pas être nul"
+
+#: Physique.cc:447 Physique.cc:464
+msgid " _"
+msgstr " _ "
+
+#: Physique.cc:503
+msgid "./ \t\n"
+msgstr "⋅./ \t∕÷×\n"
+
+#: Physique.cc:835
+msgid "/"
+msgstr "/"
+
+#: Physique.cc:836
+msgid "1/"
+msgstr "1/"
+
+#: Physique.cc:908
+msgid "percent"
+msgstr "pourcent"
+
+#: Physique.cc:908
+msgid "%"
+msgstr "%"
+
+#: Physique.cc:909
+msgid "decibel"
+msgstr "décibel"
+
+#: Physique.cc:909
+msgid "dB"
+msgstr "dB"
+
+#: Physique.cc:910
+msgid "mole"
+msgstr "mole"
+
+#: Physique.cc:910
+msgid "mol"
+msgstr "mol"
+
+#: Physique.cc:918
+msgid "nautical mile"
+msgstr "mille nautique"
+
+#: Physique.cc:918
+msgid "NM"
+msgstr "NM"
+
+#: Physique.cc:919
+msgid "statute mile"
+msgstr "mille US"
+
+#: Physique.cc:919
+msgid "SM"
+msgstr "SM"
+
+#: Physique.cc:920
+msgid "international mile"
+msgstr "mille"
+
+#: Physique.cc:920
+msgid "mi"
+msgstr "mi"
+
+#: Physique.cc:921
+msgid "millimeter"
+msgstr "millimètre"
+
+#: Physique.cc:921
+msgid "mm"
+msgstr "mm"
+
+#: Physique.cc:922
+msgid "inch"
+msgstr "pouce"
+
+#: Physique.cc:922
+msgid "in"
+msgstr "in"
+
+#: Physique.cc:923
+msgid "foot"
+msgstr "pied"
+
+#: Physique.cc:923
+msgid "ft"
+msgstr "ft"
+
+#: Physique.cc:924
+msgid "astronomical unit"
+msgstr "unité astronomique"
+
+#: Physique.cc:924
+msgid "AU"
+msgstr "UA"
+
+#: Physique.cc:925
+msgid "Survey foot"
+msgstr "pied US"
+
+#: Physique.cc:925
+msgid "ftUS"
+msgstr "ftUS"
+
+#: Physique.cc:926
+msgid "light year"
+msgstr "année lumière"
+
+#: Physique.cc:926
+msgid "LYr"
+msgstr "AL"
+
+#: Physique.cc:927
+msgid "Fathom"
+msgstr "Fathom"
+
+#: Physique.cc:927
+msgid "fath"
+msgstr "fath"
+
+#: Physique.cc:928
+msgid "chain"
+msgstr "chain"
+
+#: Physique.cc:929
+msgid "parsec"
+msgstr "parsec"
+
+#: Physique.cc:929
+msgid "pc"
+msgstr "pc"
+
+#: Physique.cc:930
+msgid "rod"
+msgstr "rod"
+
+#: Physique.cc:930
+msgid "rd"
+msgstr "rd"
+
+#: Physique.cc:931
+msgid "yard"
+msgstr "yard"
+
+#: Physique.cc:931
+msgid "yd"
+msgstr "yd"
+
+#: Physique.cc:932
+msgid "Fermi"
+msgstr "Fermi"
+
+#: Physique.cc:932
+msgid "fm"
+msgstr "fm"
+
+#: Physique.cc:933
+msgid "micron"
+msgstr "micron"
+
+#: Physique.cc:933
+msgid "u"
+msgstr "µ"
+
+#: Physique.cc:934
+msgid "Angstrom"
+msgstr "Ångström"
+
+#: Physique.cc:934
+msgid "AnU"
+msgstr "Å"
+
+#: Physique.cc:935
+msgid "mil"
+msgstr "mil"
+
+#: Physique.cc:938
+msgid "square meter"
+msgstr "mètre carré"
+
+#: Physique.cc:938
+msgid "m2"
+msgstr "m²"
+
+#: Physique.cc:939
+msgid "square foot"
+msgstr "pied carré"
+
+#: Physique.cc:939
+msgid "sqft"
+msgstr "ft²"
+
+#: Physique.cc:940
+msgid "are"
+msgstr "are"
+
+#: Physique.cc:940
+msgid "a"
+msgstr "a"
+
+#: Physique.cc:941
+msgid "hectare"
+msgstr "hectare"
+
+#: Physique.cc:941
+msgid "ha"
+msgstr "ha"
+
+#: Physique.cc:942
+msgid "acre"
+msgstr "acre"
+
+#: Physique.cc:943
+msgid "barn"
+msgstr "barn"
+
+#: Physique.cc:943
+msgid "b"
+msgstr "b"
+
+#: Physique.cc:946
+msgid "cubic meter"
+msgstr "mètre cube"
+
+#: Physique.cc:946
+msgid "m3"
+msgstr "m³"
+
+#: Physique.cc:947
+msgid "liter"
+msgstr "litre"
+
+#: Physique.cc:947
+msgid "l"
+msgstr "l"
+
+#: Physique.cc:948
+msgid "stere"
+msgstr "stère"
+
+#: Physique.cc:948
+msgid "st"
+msgstr "st"
+
+#: Physique.cc:949
+msgid "cubic foot"
+msgstr "pied cube"
+
+#: Physique.cc:949
+msgid "ft3"
+msgstr "ft³"
+
+#: Physique.cc:950
+msgid "cubic inch"
+msgstr "pouce cube"
+
+#: Physique.cc:950
+msgid "in3"
+msgstr "in³"
+
+#: Physique.cc:951
+msgid "US gallon"
+msgstr "gallon US"
+
+#: Physique.cc:951
+msgid "gal"
+msgstr "gal"
+
+#: Physique.cc:952
+msgid "Canada gallon"
+msgstr "gallon canadien"
+
+#: Physique.cc:952
+msgid "galC"
+msgstr "galC"
+
+#: Physique.cc:953
+msgid "UK gallon"
+msgstr "gallon UK"
+
+#: Physique.cc:953
+msgid "galUK"
+msgstr "galUK"
+
+#: Physique.cc:954
+msgid "quart"
+msgstr "quart"
+
+#: Physique.cc:954
+msgid "qt"
+msgstr "qt"
+
+#: Physique.cc:955
+msgid "barrel"
+msgstr "baril"
+
+#: Physique.cc:955
+msgid "bbl"
+msgstr "bbl"
+
+#: Physique.cc:956
+msgid "Register tonnage"
+msgstr "tonneau"
+
+#: Physique.cc:956
+msgid "rt"
+msgstr "tonneaux"
+
+#: Physique.cc:957
+msgid "bushel US"
+msgstr "boisseau US"
+
+#: Physique.cc:957
+msgid "bu"
+msgstr "bu"
+
+#: Physique.cc:958
+msgid "board foot"
+msgstr "board foot"
+
+#: Physique.cc:958
+msgid "fbm"
+msgstr "fbm"
+
+#: Physique.cc:960
+msgid "cup"
+msgstr "tasse"
+
+#: Physique.cc:960 Physique.cc:988
+msgid "c"
+msgstr "ts"
+
+#: Physique.cc:961
+msgid "tablespoon"
+msgstr "cuillère à soupe"
+
+#: Physique.cc:961
+msgid "tbsp"
+msgstr "cuil."
+
+#: Physique.cc:962
+msgid "teaspoon"
+msgstr "cuillère à café"
+
+#: Physique.cc:962
+msgid "tsp"
+msgstr "cc"
+
+#: Physique.cc:963
+msgid "US fluid ounce"
+msgstr "once liquide US"
+
+#: Physique.cc:963
+msgid "ozfl"
+msgstr "ozfl"
+
+#: Physique.cc:964
+msgid "UK fluid ounce"
+msgstr "once liquide UK"
+
+#: Physique.cc:964
+msgid "ozUK"
+msgstr "ozUK"
+
+#: Physique.cc:965
+msgid "Peck"
+msgstr "Peck"
+
+#: Physique.cc:965
+msgid "pk"
+msgstr "pk"
+
+#: Physique.cc:966
+msgid "pint"
+msgstr "pinte"
+
+#: Physique.cc:966
+msgid "pt"
+msgstr "pt"
+
+#: Physique.cc:970
+msgid "minute"
+msgstr "minute"
+
+#: Physique.cc:970
+msgid "min"
+msgstr "min"
+
+#: Physique.cc:971
+msgid "hour"
+msgstr "heure"
+
+#: Physique.cc:971
+msgid "hr"
+msgstr "hr"
+
+#: Physique.cc:972
+msgid "day"
+msgstr "jour"
+
+#: Physique.cc:972
+msgid "d"
+msgstr "j"
+
+#: Physique.cc:973
+msgid "year"
+msgstr "année"
+
+#: Physique.cc:973
+msgid "yr"
+msgstr "an"
+
+#: Physique.cc:976
+msgid "Hertz"
+msgstr "Hertz"
+
+#: Physique.cc:976
+msgid "Hz"
+msgstr "Hz"
+
+#: Physique.cc:977
+msgid "kilohertz"
+msgstr "kilohertz"
+
+#: Physique.cc:977
+msgid "kHz"
+msgstr "kHz"
+
+#: Physique.cc:978
+msgid "megahertz"
+msgstr "megahertz"
+
+#: Physique.cc:978
+msgid "MHz"
+msgstr "MHz"
+
+#: Physique.cc:979
+msgid "Becquerel"
+msgstr "Becquerel"
+
+#: Physique.cc:979
+msgid "Bq"
+msgstr "Bq"
+
+#: Physique.cc:980
+msgid "Curie"
+msgstr "Curie"
+
+#: Physique.cc:980
+msgid "Ci"
+msgstr "Ci"
+
+#: Physique.cc:983
+msgid "meter per second"
+msgstr "mètre/seconde"
+
+#: Physique.cc:983
+msgid "m/s"
+msgstr "m/s"
+
+#: Physique.cc:984
+msgid "knot"
+msgstr "noeud"
+
+#: Physique.cc:984
+msgid "kt"
+msgstr "kt"
+
+#: Physique.cc:985
+msgid "kilometer per hour"
+msgstr "kilomètre/heure"
+
+#: Physique.cc:985
+msgid "kph"
+msgstr "km/h"
+
+#: Physique.cc:986
+msgid "mile per hour"
+msgstr "mille/heure"
+
+#: Physique.cc:986
+msgid "mph"
+msgstr "mph"
+
+#: Physique.cc:987
+msgid "foot per second"
+msgstr "pied par seconde"
+
+#: Physique.cc:987
+msgid "ft/s"
+msgstr "ft/s"
+
+#: Physique.cc:988
+msgid "speed of light"
+msgstr "vitesse de la lumière"
+
+#: Physique.cc:991
+msgid "G"
+msgstr "G"
+
+#: Physique.cc:992
+msgid "meter per second squared"
+msgstr "mètre par seconde au carré"
+
+#: Physique.cc:992
+msgid "m/s2"
+msgstr "m/s²"
+
+#: Physique.cc:996
+msgid "metric ton"
+msgstr "tonne métrique"
+
+#: Physique.cc:996
+msgid "t"
+msgstr "t"
+
+#: Physique.cc:997
+msgid "pound"
+msgstr "livre"
+
+#: Physique.cc:997
+msgid "lb"
+msgstr "lb"
+
+#: Physique.cc:998
+msgid "gramme"
+msgstr "gramme"
+
+#: Physique.cc:998
+msgid "g"
+msgstr "g"
+
+#: Physique.cc:999
+msgid "once"
+msgstr "once"
+
+#: Physique.cc:999
+msgid "oz"
+msgstr "oz"
+
+#: Physique.cc:1000
+msgid "slug"
+msgstr "slug"
+
+#: Physique.cc:1001
+msgid "ton US"
+msgstr "tonne US"
+
+#: Physique.cc:1001
+msgid "tonUS"
+msgstr "tonUS"
+
+#: Physique.cc:1002
+msgid "ton UK"
+msgstr "tonne UK"
+
+#: Physique.cc:1002
+msgid "tonUK"
+msgstr "tonUK"
+
+#: Physique.cc:1004
+msgid "carat"
+msgstr "carat"
+
+#: Physique.cc:1004
+msgid "ct"
+msgstr "ct"
+
+#: Physique.cc:1005
+msgid "grain"
+msgstr "grain"
+
+#: Physique.cc:1006
+msgid "troy ounce"
+msgstr "once troyenne"
+
+#: Physique.cc:1006
+msgid "ozt"
+msgstr "ozt"
+
+#: Physique.cc:1007
+msgid "troy pound"
+msgstr "livre troyenne"
+
+#: Physique.cc:1007
+msgid "lbt"
+msgstr "lbt"
+
+#: Physique.cc:1009
+msgid "atomic mass unit"
+msgstr "unité de masse atomique"
+
+#: Physique.cc:1009
+msgid "amu"
+msgstr "uma"
+
+#: Physique.cc:1012
+msgid "gram per liter"
+msgstr "gramme par litre"
+
+#: Physique.cc:1012
+msgid "g/l"
+msgstr "g/l"
+
+#: Physique.cc:1013
+msgid "kilogram per cubic meter"
+msgstr "kilogramme par mètre cube"
+
+#: Physique.cc:1013
+msgid "kg/m3"
+msgstr "kg/m³"
+
+#: Physique.cc:1017
+msgid "kilogram-force"
+msgstr "kilogramme-force"
+
+#: Physique.cc:1017
+msgid "kgf"
+msgstr "kgf"
+
+#: Physique.cc:1018
+msgid "gram-force"
+msgstr "gramme-force"
+
+#: Physique.cc:1018
+msgid "gf"
+msgstr "gf"
+
+#: Physique.cc:1019
+msgid "ton-force"
+msgstr "tonne-force"
+
+#: Physique.cc:1019
+msgid "tf"
+msgstr "tf"
+
+#: Physique.cc:1020
+msgid "pound-force"
+msgstr "livre-force"
+
+#: Physique.cc:1020
+msgid "lbf"
+msgstr "lbf"
+
+#: Physique.cc:1021
+msgid "dyne"
+msgstr "dyne"
+
+#: Physique.cc:1021
+msgid "dyn"
+msgstr "dyn"
+
+#: Physique.cc:1022
+msgid "kilopound-force"
+msgstr "kilolivre-force"
+
+#: Physique.cc:1022
+msgid "kip"
+msgstr "kip"
+
+#: Physique.cc:1023
+msgid "poundal"
+msgstr "poundal"
+
+#: Physique.cc:1023
+msgid "pdl"
+msgstr "pdl"
+
+#: Physique.cc:1026
+msgid "Joule"
+msgstr "Joule"
+
+#: Physique.cc:1026
+msgid "J"
+msgstr "J"
+
+#: Physique.cc:1027
+msgid "kilojoule"
+msgstr "kilojoule"
+
+#: Physique.cc:1027
+msgid "kJ"
+msgstr "kJ"
+
+#: Physique.cc:1028
+msgid "calorie"
+msgstr "calorie"
+
+#: Physique.cc:1028
+msgid "cal"
+msgstr "cal"
+
+#: Physique.cc:1029
+msgid "kilocalorie"
+msgstr "kilocalorie"
+
+#: Physique.cc:1029
+msgid "kcal"
+msgstr "kcal"
+
+#: Physique.cc:1030
+msgid "british thermal unit"
+msgstr "british thermal unit"
+
+#: Physique.cc:1030
+msgid "BTU"
+msgstr "BTU"
+
+#: Physique.cc:1031
+msgid "erg"
+msgstr "erg"
+
+#: Physique.cc:1032
+msgid "electron-volt"
+msgstr "electron-volt"
+
+#: Physique.cc:1032
+msgid "eV"
+msgstr "eV"
+
+#: Physique.cc:1033
+msgid "thermie CEE"
+msgstr "thermie CEE"
+
+#: Physique.cc:1033
+msgid "thermie"
+msgstr "thermie"
+
+#: Physique.cc:1036
+msgid "Watt"
+msgstr "Watt"
+
+#: Physique.cc:1036
+msgid "W"
+msgstr "W"
+
+#: Physique.cc:1037
+msgid "kilowatt"
+msgstr "kilowatt"
+
+#: Physique.cc:1037
+msgid "kW"
+msgstr "kW"
+
+#: Physique.cc:1038
+msgid "megawatt"
+msgstr "megawatt"
+
+#: Physique.cc:1038
+msgid "MW"
+msgstr "MW"
+
+#: Physique.cc:1039
+msgid "horsepower"
+msgstr "cheval-vapeur US"
+
+#: Physique.cc:1039
+msgid "hp"
+msgstr "hp"
+
+#: Physique.cc:1040
+msgid "cheval-vapeur"
+msgstr "cheval-vapeur"
+
+#: Physique.cc:1040
+msgid "cv"
+msgstr "cv"
+
+#: Physique.cc:1043
+msgid "Pascal"
+msgstr "Pascal"
+
+#: Physique.cc:1043
+msgid "Pa"
+msgstr "Pa"
+
+#: Physique.cc:1044
+msgid "hectopascal"
+msgstr "hectopascal"
+
+#: Physique.cc:1044
+msgid "hPa"
+msgstr "hPa"
+
+#: Physique.cc:1045
+msgid "atmosphere"
+msgstr "atmosphère"
+
+#: Physique.cc:1045
+msgid "atm"
+msgstr "atm"
+
+#: Physique.cc:1046
+msgid "inch of mercury"
+msgstr "pouce de mercure"
+
+#: Physique.cc:1046
+msgid "inHg"
+msgstr "inHg"
+
+#: Physique.cc:1047
+msgid "pounds per square inch"
+msgstr "livres par pouce carré"
+
+#: Physique.cc:1047
+msgid "psi"
+msgstr "psi"
+
+#: Physique.cc:1048
+msgid "bar"
+msgstr "bar"
+
+#: Physique.cc:1049
+msgid "millibar"
+msgstr "millibar"
+
+#: Physique.cc:1049
+msgid "mbar"
+msgstr "mbar"
+
+#: Physique.cc:1050
+msgid "inch of water"
+msgstr "pouce d'eau"
+
+#: Physique.cc:1050
+msgid "inH20"
+msgstr "inH₂O"
+
+#: Physique.cc:1051
+msgid "millimeter of mercury"
+msgstr "millimètres de mercure"
+
+#: Physique.cc:1051
+msgid "mmHg"
+msgstr "mmHg"
+
+#: Physique.cc:1052
+msgid "millimeter of water"
+msgstr "millimètres d'eau"
+
+#: Physique.cc:1052
+msgid "mmH2O"
+msgstr "mmH₂O"
+
+#: Physique.cc:1053
+msgid "Torr"
+msgstr "Torr"
+
+#: Physique.cc:1053
+msgid "torr"
+msgstr "torr"
+
+#: Physique.cc:1058
+msgid "degree Celsius"
+msgstr "degré Celsius"
+
+#: Physique.cc:1058
+msgid "dC"
+msgstr "°C"
+
+#: Physique.cc:1059
+msgid "degree Fahrenheit"
+msgstr "degré Fahrenheit"
+
+#: Physique.cc:1059
+msgid "dF"
+msgstr "°F"
+
+#: Physique.cc:1060
+msgid "degree Rayleigh"
+msgstr "degré Rayleigh"
+
+#: Physique.cc:1060
+msgid "dR"
+msgstr "°R"
+
+#: Physique.cc:1064
+msgid "Coulomb"
+msgstr "Coulomb"
+
+#: Physique.cc:1064
+msgid "C"
+msgstr "C"
+
+#: Physique.cc:1065
+msgid "Faraday"
+msgstr "Faraday"
+
+#: Physique.cc:1065
+msgid "Fdy"
+msgstr "Fdy"
+
+#: Physique.cc:1066
+msgid "Volt"
+msgstr "Volt"
+
+#: Physique.cc:1066
+msgid "V"
+msgstr "V"
+
+#: Physique.cc:1067
+msgid "Ohm"
+msgstr "Ohm"
+
+#: Physique.cc:1067
+msgid "U"
+msgstr "Ω"
+
+#: Physique.cc:1069
+msgid "kiloohm"
+msgstr "kiloohm"
+
+#: Physique.cc:1069
+msgid "kU"
+msgstr "kΩ"
+
+#: Physique.cc:1070
+msgid "megohm"
+msgstr "megohm"
+
+#: Physique.cc:1070
+msgid "MU"
+msgstr "MΩ"
+
+#: Physique.cc:1071
+msgid "Farad"
+msgstr "Farad"
+
+#: Physique.cc:1071
+msgid "F"
+msgstr "F"
+
+#: Physique.cc:1072
+msgid "picofarad"
+msgstr "picofarad"
+
+#: Physique.cc:1072
+msgid "pF"
+msgstr "pF"
+
+#: Physique.cc:1073
+msgid "nanofarad"
+msgstr "nanofarad"
+
+#: Physique.cc:1073
+msgid "nF"
+msgstr "nF"
+
+#: Physique.cc:1074
+msgid "microfarad"
+msgstr "microfarad"
+
+#: Physique.cc:1074
+msgid "uF"
+msgstr "µF"
+
+#: Physique.cc:1075
+msgid "millifarad"
+msgstr "millifarad"
+
+#: Physique.cc:1075
+msgid "mF"
+msgstr "mF"
+
+#: Physique.cc:1076
+msgid "Henri"
+msgstr "Henri"
+
+#: Physique.cc:1076
+msgid "H"
+msgstr "H"
+
+#: Physique.cc:1077
+msgid "millihenri"
+msgstr "millihenri"
+
+#: Physique.cc:1077
+msgid "mH"
+msgstr "mH"
+
+#: Physique.cc:1078
+msgid "Weber"
+msgstr "Weber"
+
+#: Physique.cc:1078
+msgid "Wb"
+msgstr "Wb"
+
+#: Physique.cc:1079
+msgid "Tesla"
+msgstr "Tesla"
+
+#: Physique.cc:1079
+msgid "T"
+msgstr "T"
+
+#: Physique.cc:1080
+msgid "millitesla"
+msgstr "millitesla"
+
+#: Physique.cc:1080
+msgid "mT"
+msgstr "mT"
+
+#: Physique.cc:1081
+msgid "Siemens"
+msgstr "Siemens"
+
+#: Physique.cc:1081
+msgid "S"
+msgstr "S"
+
+#: Physique.cc:1087
+msgid "radian"
+msgstr "radian"
+
+#: Physique.cc:1087
+msgid "r"
+msgstr "r"
+
+#: Physique.cc:1088
+msgid "revolution"
+msgstr "tour"
+
+#: Physique.cc:1088
+msgid "tr"
+msgstr "tr"
+
+#: Physique.cc:1089
+msgid "degree"
+msgstr "degré"
+
+#: Physique.cc:1089
+msgid "deg"
+msgstr "°"
+
+#: Physique.cc:1091
+msgid "grade"
+msgstr "grade"
+
+#: Physique.cc:1091
+msgid "grad"
+msgstr "grad"
+
+#: Physique.cc:1092
+msgid "arc minute"
+msgstr "minute d'arc"
+
+#: Physique.cc:1092
+msgid "'"
+msgstr "’"
+
+#: Physique.cc:1093
+msgid "arc second"
+msgstr "seconde d'arc"
+
+#: Physique.cc:1093
+msgid "\""
+msgstr "”"
+
+#: Physique.cc:1094
+msgid "steradian"
+msgstr "stéradian"
+
+#: Physique.cc:1094
+msgid "sr"
+msgstr "sr"
+
+#: Physique.cc:1095
+msgid "revolution per min"
+msgstr "tour par minute"
+
+#: Physique.cc:1095
+msgid "RPM"
+msgstr "tr/min"
+
+#: Physique.cc:1098
+msgid "Poise"
+msgstr "Poise"
+
+#: Physique.cc:1098
+msgid "P"
+msgstr "P"
+
+#: Physique.cc:1099
+msgid "Stokes"
+msgstr "Stokes"
+
+#: Physique.cc:1099
+msgid "St"
+msgstr "St"
+
+#: Physique.cc:1104
+msgid "Gray"
+msgstr "Gray"
+
+#: Physique.cc:1104
+msgid "Gy"
+msgstr "Gy"
+
+#: Physique.cc:1105
+msgid "rad"
+msgstr "rad"
+
+#: Physique.cc:1106
+msgid "Sievert"
+msgstr "Sievert"
+
+#: Physique.cc:1106
+msgid "Sv"
+msgstr "Sv"
+
+#: Physique.cc:1108
+msgid "Roentgen"
+msgstr "Roëntgen"
+
+#: Physique.cc:1108
+msgid "R"
+msgstr "R"
+
+#: Physique.cc:1109
+msgid "rem"
+msgstr "rem"
+
+#: Physique.cc:1114
+msgid "lux"
+msgstr "lux"
+
+#: Physique.cc:1114
+msgid "lx"
+msgstr "lx"
+
+#: Physique.cc:1115
+msgid "foot-candle"
+msgstr "foot-candle"
+
+#: Physique.cc:1115
+msgid "fc"
+msgstr "fc"
+
+#: Physique.cc:1116
+msgid "phot"
+msgstr "phot"
+
+#: Physique.cc:1116
+msgid "ph"
+msgstr "ph"
+
+#: Physique.cc:1117
+msgid "lumen"
+msgstr "lumen"
+
+#: Physique.cc:1117
+msgid "lm"
+msgstr "lm"
+
+#: Physique.cc:1120
+msgid "gram per mole"
+msgstr "gramme par mole"
+
+#: Physique.cc:1120
+msgid "g/mol"
+msgstr "g/mol"
