@@ -30,14 +30,7 @@ was not complete without a model of their safety features, such as redondancies 
 ## What is SafetyLib ?
 
 SafetyLib is a Modelica library which represents functional flows and functional losses. Modelica is a widely used, standard language 
-created to describe dynamic systems. Old versions of Modelica supported a description based on a system of implicit differential equations.
-Recent versions also support state based descriptions similar in principle to SystemC, including algorithms. Such descriptions can
-be used with discrete variables, for instance Boolean values, whereas differential equations operate on time dependant real valued,
-derivable quantities.
-
-In a modern Modelica model, time is a sequence of time periods separated by discontinuities. The differential equations are solved within
-the time periods to calculate time-dependent values of real valued variables, and at time discontinuities the state logic and other
-discrete variables can change their value. SafetyLib manipulates Boolean equations to model the functional status of componnts.
+created to describe dynamic systems. SafetyLib manipulates Boolean equations to model the functional status of components.
 
 ## How Does It Work ?
 
