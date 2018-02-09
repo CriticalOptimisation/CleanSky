@@ -2,7 +2,7 @@ within EU_CleanSky.EDS.Utilities.OptimisedSplit.Internal;
 model PowerShareCalc "Computes the amount of power taken from each supply"
   parameter Integer corrType(min=0, max=1)=0 "Tyoe of correction applied" annotation(choices(choice=0
         "Proportional",                                                                                             choice=1
-        "Corrected by V²"));
+        "Corrected by VÂ²"));
   parameter Integer n=3 "Number of wires in wire set";
   // These parameters are free sizing variables in the optimisation loop.
   // Gradients will be computed numerically using small variations of these values.
@@ -34,7 +34,7 @@ equation
     // The chosen equation never changes during a simulation, but depends on index i.
     // Dymola hard codes the path at compile time, so corrType is not available for changing at runtime.
     if corrType == 1 then
-      // weights are corrected by V_i², so totalPwr * weight * corrections / voltagea / total = totalPwr * weight * voltages / total
+      // weights are corrected by V_iÂ², so totalPwr * weight * corrections / voltagea / total = totalPwr * weight * voltages / total
       i[j] = totalPwr * max(weights[j],0.0) * voltages[j] / total;
     else // corrType == 0
       assert(corrType == 0, "BUG: please update code for new corrType");

@@ -17,7 +17,7 @@ input String sizingIteration = "sizingIteration.xml" annotation(Dialog(
 //parametring inputs
 input String optimizationFolder = "" annotation(Dialog(tab="Parameters",
                          __Dymola_loadSelector(filter="All files (*.*)")));
-input String XSLTProcessor = "C:\Temp/saxon/Transform.exe" annotation(Dialog(tab="Parameters",
+input String XSLTProcessor = "C:/Temp/saxon/Transform.exe" annotation(Dialog(tab="Parameters",
                          __Dymola_loadSelector(filter="All files (*.*)")));
 input String XSLTScript = "U:/CleanSky/WIP/Interfacing Tool/Tool parts/scriptGen.xsl" annotation(Dialog(tab="Parameters",
                          __Dymola_loadSelector(filter="All files (*.*)")));

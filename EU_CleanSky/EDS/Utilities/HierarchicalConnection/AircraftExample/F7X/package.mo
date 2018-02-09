@@ -1,4 +1,4 @@
-﻿within EU_CleanSky.EDS.Utilities.HierarchicalConnection.AircraftExample;
+within EU_CleanSky.EDS.Utilities.HierarchicalConnection.AircraftExample;
 package F7X 
   extends Aircraft(
   redeclare type S = F7X_StructureConnections,
@@ -22,7 +22,7 @@ package F7X
             Text(
               extent={{30,40},{74,-6}},
               lineColor={0,0,255},
-              textString="−")}));
+              textString="â")}));
     end Battery;
 
     model Heater "Heater icon for use in Proxies"

@@ -1,5 +1,5 @@
 within EU_CleanSky_Test.EDS.SafetyLib;
-model TestLink1 "Test of dipole circuits N°1."
+model TestLink1 "Test of dipole circuits NÂ°1."
   import EU_CleanSky.EDS.SafetyLib;
 
   EU_CleanSky.EDS.SafetyLib.Link link1(

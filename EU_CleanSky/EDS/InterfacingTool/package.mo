@@ -6,7 +6,7 @@ package InterfacingTool "Use of an Energy Management Model to optimise onboard s
    *
    * The research leading to these results has received funding from the European 
    * Community's Seventh Framework Programme (FP7/2007-2013) for  the  Clean  Sky
-   * Joint Technology Initiative under grant agreement n° CSJU-GAM-ED-2008-001.
+   * Joint Technology Initiative under grant agreement nÂ° CSJU-GAM-ED-2008-001.
    *
    * 
    *

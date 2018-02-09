@@ -58,19 +58,19 @@ model Uniform "Uniform distribution"
   end entropy;
 
   redeclare function extends mgf
-    "Return fonction génératrice des moments as function of x"
+    "Return fonction gÃ©nÃ©ratrice des moments as function of x"
     input Real x;
     output Real mgf;
   end mgf;
 
   redeclare function extends cf
-    "Return fonction caractéristique as function of x"
+    "Return fonction caractÃ©ristique as function of x"
     input Real x;
     output Real cf;
   end cf;
 
   redeclare function extends fisherMatrix
-    "Return fonction caractéristique as function of x"
+    "Return fonction caractÃ©ristique as function of x"
     input Real x;
     output Real fisherMatrix[:,:];
   end fisherMatrix;

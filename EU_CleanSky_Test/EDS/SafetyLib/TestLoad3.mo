@@ -1,6 +1,6 @@
 within EU_CleanSky_Test.EDS.SafetyLib;
 model TestLoad3
-  "Test of dipole circuits N°4. Two loads in series between high and low potentials, do not work."
+  "Test of dipole circuits NÂ°4. Two loads in series between high and low potentials, do not work."
   import EU_CleanSky.EDS.SafetyLib;
 
   EU_CleanSky.EDS.SafetyLib.Link link1(useOpen=false, useLeak=false)

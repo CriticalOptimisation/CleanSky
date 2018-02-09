@@ -3,7 +3,7 @@ model Location "Location or position of aircraft on Earth"
   parameter Boolean animationNEDFrame=true
     "= true, if the NED reference frame is displayed" annotation (Dialog(tab="Animation"));
 //   constant Modelica.SIunits.Duration stellarDay=86164.1
-//     "24 hr contain 86400 seconds, but the Earth rotates slightly more than 360° until the Sun is exactly overhead twice in a row.";
+//     "24 hr contain 86400 seconds, but the Earth rotates slightly more than 360Â° until the Sun is exactly overhead twice in a row.";
   Modelica.Mechanics.MultiBody.Interfaces.Frame_a NEDframe
     "North East Down frame used by JSBSim." annotation (Placement(
         transformation(extent={{-126,-16},{-94,16}}), iconTransformation(extent={{-126,-16},{-94,16}})));

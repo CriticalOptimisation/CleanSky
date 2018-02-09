@@ -90,7 +90,7 @@ package Internal
               origin={0,-100})));
       equation
         // Total quantities
-        I = m_flow*pathLength; // devrait être une intégrale le long du path, en 3D
+        I = m_flow*pathLength; // devrait Ãªtre une intÃ©grale le long du path, en 3D
 
         // Momentum balances
         if momentumDynamics == Modelica.Fluid.Types.Dynamics.SteadyState then

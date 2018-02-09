@@ -1,7 +1,7 @@
 within EU_CleanSky.EDS.Utilities;
 block PrintOnce "Print a message once if a condition occurs"
   extends .Modelica.Blocks.Icons.BooleanBlock;
-  import .Modelica.Utilities.Strings.substring;
+  import Modelica.Utilities.Strings.substring;
   .Modelica.Blocks.Interfaces.BooleanInput u=print if useInput annotation (Placement(
         transformation(extent={{-120,-20},{-80,20}}), iconTransformation(extent=
            {{-120,-20},{-80,20}})));
@@ -19,7 +19,7 @@ block PrintOnce "Print a message once if a condition occurs"
   encapsulated function findLastN
     "Find last occurrence of a string within another string"
     extends .Modelica.Icons.Function;
-    import .Modelica.Utilities.Strings.*;
+    import Modelica.Utilities.Strings.*;
     input String string "String that is analyzed";
     input String searchString "String that is searched for in string";
     input Integer n(min=1)=1 "Look for nth occurrence";

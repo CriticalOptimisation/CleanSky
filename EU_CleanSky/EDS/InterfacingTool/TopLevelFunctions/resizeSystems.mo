@@ -30,7 +30,7 @@ input String sizingExperiments = "sizingExperiments.xml"
                          __Dymola_loadSelector(filter="XML files (*.xml)")));
 
 //technical settings tab
-input String XSLTProcessor = "C:\Temp/saxon/Transform.exe" annotation(Dialog(tab = "settings", group="XSLT Processor",
+input String XSLTProcessor = "C:/Temp/saxon/Transform.exe" annotation(Dialog(tab = "settings", group="XSLT Processor",
                          __Dymola_loadSelector(filter="Executable files (*.exe; *.bat)")));
 input String optimizationFolder = "C:/Temp/Test Bench 1808/"
     "Folder where simulation data is generated" annotation(Dialog(tab = "settings", group="Workspace",

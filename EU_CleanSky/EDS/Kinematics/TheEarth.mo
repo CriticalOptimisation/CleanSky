@@ -42,7 +42,7 @@ model TheEarth
   constant Modelica.SIunits.Radius b = 6356752.3142
     "Average semi-minor Earth axis (poles)";
   constant Modelica.SIunits.Duration stellarDay=86164.1
-    "24 hr contain 86400 seconds, but the Earth rotates slightly more than 360° until the Sun is exactly overhead twice in a row.";
+    "24 hr contain 86400 seconds, but the Earth rotates slightly more than 360Â° until the Sun is exactly overhead twice in a row.";
 
   Modelica.Mechanics.MultiBody.Visualizers.Advanced.Shape earthSurface(
     shapeType="sphere",

@@ -1,5 +1,5 @@
 within EU_CleanSky_Test.EDS.SafetyLib;
-model TestPermanentPower1 "Test of dipole circuits N°2."
+model TestPermanentPower1 "Test of dipole circuits NÂ°2."
 
   EU_CleanSky.EDS.SafetyLib.Link link2(useOpen=false, useLeak=true)
     annotation (Placement(transformation(extent={{-60,30},{-40,50}})));

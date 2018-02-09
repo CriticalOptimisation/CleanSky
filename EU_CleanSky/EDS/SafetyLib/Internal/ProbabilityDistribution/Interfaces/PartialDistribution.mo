@@ -70,19 +70,19 @@ protected
   end entropy;
 
   replaceable partial function mgf
-    "Return fonction génératrice des moments as function of x"
+    "Return fonction gÃ©nÃ©ratrice des moments as function of x"
     input Real x;
     output Real mgf;
   end mgf;
 
   replaceable partial function cf
-    "Return fonction caractéristique as function of x"
+    "Return fonction caractÃ©ristique as function of x"
     input Real x;
     output Real cf;
   end cf;
 
   replaceable partial function fisherMatrix
-    "Return fonction caractéristique as function of x"
+    "Return fonction caractÃ©ristique as function of x"
     input Real x;
     output Real fisherMatrix[:,:];
   end fisherMatrix;

@@ -155,7 +155,7 @@ for k in 1:sizingNumber loop
   Modelica.Utilities.Files.move("resultFiles","resultFiles_"+sizingIndex,true);
 
   //Post process to create OCAPI engine model
-  DataFiles.writeCSVmatrix("emmLight"+sizingIndex+".txt",{"Régime(%)","Mach(-)","Altitude(m)","FN(daN)","CS(kg/daN/h)"},result[:,1:5],";");
+  DataFiles.writeCSVmatrix("emmLight"+sizingIndex+".txt",{"RÃ©gime(%)","Mach(-)","Altitude(m)","FN(daN)","CS(kg/daN/h)"},result[:,1:5],";");
 
 end for;
 

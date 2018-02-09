@@ -57,7 +57,7 @@ model MergedPower "Component with two electrical ports, including current"
   parameter Real weights[n]=ones(n) "Power sharing weights";
   parameter Integer corrType=0 "Tyoe of correction applied"  annotation(choices(choice=0
         "Proportional",                                                                                             choice=1
-        "Corrected by V²"));
+        "Corrected by VÂ²"));
 equation
   connect(voltageSensor.v, min.u) annotation (Line(
       points={{10,0},{19,0}},
