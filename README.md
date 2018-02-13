@@ -29,7 +29,7 @@ was not complete without a model of their safety features, such as redondancies 
 ## What is SafetyLib ?
 
 SafetyLib is a Modelica library which represents functional flows and functional losses. Modelica is a widely used, standard language 
-created to describe dynamic systems. SafetyLib manipulates Boolean equations to model the functional status of components.
+created to describe dynamic systems. SafetyLib manipulates Boolean equations to model the functional status of components in a system.
 
 ## How Does It Work ?
 
